@@ -1,0 +1,45 @@
+{
+  "name": "QuanLy Bán Hàng - POS Offline",
+  "short_name": "QuanLy",
+  "description": "Ứng dụng quản lý bán hàng offline miễn phí — POS, kho hàng, công nợ, báo cáo",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "lang": "vi",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Bán Hàng POS",
+      "short_name": "Bán hàng",
+      "description": "Mở màn hình bán hàng POS",
+      "url": "/app",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Báo Cáo",
+      "short_name": "Báo cáo",
+      "description": "Xem báo cáo doanh thu",
+      "url": "/app/reports",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    }
+  ]
+}

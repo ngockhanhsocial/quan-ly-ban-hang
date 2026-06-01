@@ -1,0 +1,2 @@
+- [POS App Architecture](pos-app-arch.md) — client-only POS, all data in localStorage via Zustand persist, two stores: useStore (POS data) + useAuthStore (auth)
+- [POS App Routing](pos-app-routing.md) — wouter routing: / landing, /login, /register, /app/* protected POS pages

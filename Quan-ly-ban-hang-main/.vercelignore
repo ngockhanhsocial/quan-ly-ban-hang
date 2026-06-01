@@ -1,0 +1,9 @@
+node_modules
+.cursor
+.expo
+.cache
+.local
+**/*.tsbuildinfo
+artifacts/api-server
+artifacts/mockup-sandbox
+lib/db

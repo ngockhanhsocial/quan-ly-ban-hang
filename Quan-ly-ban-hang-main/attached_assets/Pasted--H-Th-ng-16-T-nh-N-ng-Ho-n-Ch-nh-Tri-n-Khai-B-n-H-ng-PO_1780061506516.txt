@@ -1,0 +1,38 @@
+🌟 Hệ Thống 16 Tính Năng Hoàn Chỉnh Đã Triển Khai
+Bán Hàng POS (POS Sales): Giao diện bán hàng hiện đại với bộ lọc danh mục sản phẩm trực quan, tìm kiếm nhanh và giỏ hàng thông minh với cập nhật số lượng và tính tiền tự động dứt khoát.
+
+In Hóa Đơn (Invoice Printing): Khi thanh toán thành công, hệ thống hiển thị hóa đơn (Receipt) thiết kế chuẩn bán lẻ để in trực tiếp thông qua lệnh in hệ thống (window.print()).
+
+Quản Lý Sản Phẩm (Products Catalog): Kiểm soát chi tiết thông tin mã vạch, tên sản phẩm, giá nhập, giá bán, danh mục phân loại và đơn vị tính của từng sản phẩm.
+
+Nhập Hàng (Stock Import): Module lập phiếu nhập kho (Phiếu Nhập PN) chuyên dụng giúp nhập thêm hàng từ nhà cung cấp, cập nhật giá vốn và tăng số lượng tồn trực tiếp.
+
+Tồn Kho Theo Sản Phẩm (Inventory Tracker): Tự động trừ kho khi bán POS, tăng kho khi nhập hàng, kèm theo thanh cảnh báo trạng thái nếu sản phẩm chạm ngưỡng tồn tối thiểu (≤ 5) để nhắc nhở kinh doanh.
+
+Danh Sách Khách Hàng (Customers Directory): Quản lý danh bạ khách hàng, số điện thoại, địa chỉ phục vụ cho việc gửi hóa đơn hoặc theo dõi mua sắm.
+
+Công Nợ Khách Hàng (Customer Debts): POS hỗ trợ tuỳ chọn "Khách mua nợ / Ghi sổ". Phân hệ quản lý hỗ trợ tính năng "Thu hồi nợ" để khách trả nợ dần, tự động đồng bộ dòng tiền vào Sổ Quỹ.
+
+Danh Sách Nhà Cung Cấp (Suppliers Directory): Lưu vết và quản lý thông tin các đối tác, nhà phân phối cung cấp nguồn hàng cho đại lý.
+
+Công Nợ Nhà Cung Cấp (Supplier Debts): Ghi nhận số tiền nợ gối đầu khi lập phiếu nhập hàng chưa thanh toán đủ, hỗ trợ phiếu "Chi tiền trả nợ NCC" kết nối trực tiếp với dòng tiền chi hoạt động.
+
+Sổ Quỹ / Thu Chi (Cashbook Engine): Cho phép kế toán lập các phiếu thu ngoài bán lẻ (bán phế liệu, dịch vụ...) hoặc phiếu chi (tiền điện, tiền nước, thuê mặt bằng, lương nhân viên...). Tự động tính toán tổng số tiền thực tế trong két.
+
+Hình Thức Thanh Toán (Payment Methods): Hỗ trợ linh hoạt 3 chế độ: Tiền mặt, Chuyển khoản, hoặc Quẹt thẻ. Đi kèm bộ phím tắt chọn nhanh tiền khách đưa (chẵn tiền đơn, 50k, 100k, 200k, 500k...) giảm thời gian thao tác.
+
+Quét Mã Vạch (Barcode Scanning): Ô nhập mã vạch tập trung tự động thêm sản phẩm vào giỏ hàng ngay khi nhấn Enter. Đi kèm tính năng Camera Quét và giả lập tiếng bíp phục vụ trường hợp quét thử nghiệm nhanh.
+
+Báo Cáo Cơ Bản (Basic Analytics Dashboard):
+
+Hiển thị trực quan 4 KPI quan trọng: Tổng doanh thu, Lợi nhuận gộp, Tổng số hóa đơn và Giá trị trung bình đơn.
+
+Biểu đồ Cột SVG tương tác 7 ngày qua: Phân tích chi tiết biến động Doanh thu và Lợi nhuận gộp hàng ngày.
+
+Danh sách top sản phẩm bán chạy nhất được xếp hạng trực quan.
+
+Sao Lưu / Phục Hồi (Backup & Restore): Hỗ trợ xuất dữ liệu toàn cửa hàng ra một file JSON tải về máy. Đồng thời hỗ trợ tải lên tệp JSON cũ để khôi phục dữ liệu nguyên vẹn khi chuyển máy.
+
+Dữ Liệu Lưu Trên Máy (Local Storage Space): Cung cấp widget đo đạc trực tiếp dung lượng lưu trữ thực tế trên trình duyệt, khẳng định độ riêng tư tuyệt đối, bảo mật dữ liệu riêng tư hơn.
+
+Không Cần Internet (Offline First): Widget theo dõi trạng thái mạng theo thời gian thực (Trực tuyến / Ngoại tuyến) nhắc nhở chủ shop an tâm kinh doanh ngay cả khi mất kết nối internet
